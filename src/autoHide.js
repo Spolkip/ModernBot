@@ -58,7 +58,7 @@ class AutoHide extends ModernUtil {
                 <div style="position: absolute; right: 10px; top: 4px; font-size: 10px;"> (click to toggle) </div>
             </div>
             <div style="padding: 5px; font-weight: 600">
-                Check every 5 seconds, if there is more then 5000 iron store it in the hide
+                Check every 5 seconds, if there is more then 25000 iron store it in the hide
             </div>    
         </div>
         `;
