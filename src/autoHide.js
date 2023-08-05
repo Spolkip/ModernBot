@@ -96,7 +96,7 @@ class AutoHide extends ModernUtil {
         if (this.activePolis == 0) return;
         const town = uw.ITowns.towns[this.activePolis];
         const { iron } = town.resources()
-        if (iron > 5000) {
+        if (iron > 25000) {
             this.storeIron(this.activePolis, iron)
         }
     }
